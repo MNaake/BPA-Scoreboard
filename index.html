@@ -28,7 +28,8 @@ client.onConnectionLost = function (responseObject) {
 
 //Gets called whenever you receive a message for your subscriptions
 client.onMessageArrived = function (message) {
- //Do something with the push message you received
+ //Do something with the push message you received <button onclick="fetch()">Refresh</button>
+      
  showdata(message.payloadString);
  };
 
