@@ -5,7 +5,7 @@ var options = {
   timeout: 3,
   //Gets Called if the connection has sucessfully been established
   onSuccess: function () {
-   client.subscribe('test', {qos: 2});
+   client.subscribe('setscoreboard', {qos: 2});
       alert("Connected");
   },
   //Gets Called if the connection could not be established
@@ -26,7 +26,7 @@ var options = {
 
 
 function fetch(){
-  publish(js,'test',2);
+  publish(js,'setscoreboard',2);
   
 }
 
