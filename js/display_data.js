@@ -39,7 +39,7 @@ for (i=0;i<obj.length;i++){
     var str =  
     "<li data-rank=\"" + j + "\">" +
              "<div class=\"thumb\">" + 
-                "<span class=\"img\"><img src=\"img/avatars/" + obj[i].avatar + ".png\" width=\"55\" height=\"55\"></span>"+
+                "<img src=\"img/avatars/" + obj[i].avatar + ".png\" width=\"55\" height=\"55\">"+
                 "<span class=\"name\">" + obj[i].name + "</span>" +
                 "<span class=\"stat\"><b>";
                 str += obj[i].score;
