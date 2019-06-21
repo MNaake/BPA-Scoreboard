@@ -241,7 +241,7 @@ body {
 }
 
 #leaderboards .toplist li .thumb {
-  padding: 20px 20px 19px;
+  padding: 10px 20px 10px;
   font-weight: bold;
   color: #3367B2;
   font-size: 0;
@@ -256,12 +256,12 @@ body {
 }
 
 #leaderboards .toplist li .thumb .img {
-  width: 36px;
-  height: 36px;
+  width: 55px;
+  height: 55px;
   display: inline-block;
   background: #eee no-repeat center;
   background-size: 100% 100%;
-  border-radius: 6px;
+  border-radius: 30px;
   margin-right: 20px;
   font-size: 0;
 }
