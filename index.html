@@ -44,6 +44,8 @@ client.onMessageArrived = function (message) {
       
     </header> 
     <main class="main">
+        
+        <button onclick="fetch()">Refresh</button>
       </div>
       <div id="leaderboards">
           <ul id="toplist" class="toplist">
@@ -51,7 +53,7 @@ client.onMessageArrived = function (message) {
         </div>
 <div id="messages"></div>
   <script>client.connect(options);
-      var js = '[{ "name":"Daniel", "score":33}, { "name":"Luisa", "score":21},{ "name":"Maximilian", "score":20},{ "name":"Florian", "score":16}]';
+      var js = '[{ "name":"Daniel", "score":33, "avatar":22}, { "name":"Luisa", "score":21, "avatar":21},{ "name":"Maximilian", "score":20, "avatar":43},{ "name":"Florian", "score":16, "avatar":39}]';
   </script>
     </main>
 
